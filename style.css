@@ -104,7 +104,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 180px 100px 180px;
+    padding: 50px 0px 100px 0px;
     /* padding-left: 180px;
     padding-right: 180px; */
 }
@@ -116,5 +116,34 @@ body {
 }
 
 #cards_section #cards_div {
+    width: 60%;
     display: flex;
+    /* gap: 50px; */
+    align-items: center;
+    justify-content: space-between;
 }
+
+#cards_section #cards_div .card {
+    width: 180px;
+    height: 250px;
+}
+
+#cards_section #cards_div .card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #3882F6;
+}
+
+#cards_section #cards_div .card p {
+    text-align: center;
+    padding-top: 10px;
+    color: #828891;
+    font-size: 18px;
+}
+
+
+
+/* ---------------------- Quote section ---------------------- */
+
